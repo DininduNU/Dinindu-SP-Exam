@@ -35,6 +35,9 @@ public class News {
     public String getContent() { return content; }
     public void setContent(String content) { this.content = content; }
 
+    public String getComment(){return comment;}
+    public void setComment(){return comment;}
+
     public List<Category> getCategories() { return categories; }
     public void setCategories(List<Category> categories) { this.categories = categories; }
 }
