@@ -15,6 +15,8 @@ public class News {
     @Column(length = 1000)
     private String content;
 
+    private String comment;
+
     @ManyToMany
     @JoinTable(
         name = "news_category",
